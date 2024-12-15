@@ -1,0 +1,297 @@
+body{
+    margin: 0%;
+    margin-top: 0%;
+    background-image: url(/turismo/imagenes/medellin.jpg);
+    display:grid
+
+
+}
+.flecha{
+    background-image: url(/turismo/imagenes/flecha.png);
+    position:fixed;
+    right: 10px;
+    bottom: 1px;  
+    width: 100px;   
+    height: 100px;
+}
+
+    
+header{
+    
+    color: #ffa600;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+}
+main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+.inicio{
+    color: #ffffff;
+    margin: 50px;}
+
+.gastro{
+    color: #ffffff;
+    margin: 50px; 
+}
+
+.lugares{
+    color: #ffffff;
+    margin: 50px;
+    
+}
+.contacto{
+    color: #ffffff;
+    margin: 50px;
+    
+}
+
+.div1{
+    text-align: center;
+    box-shadow: #ffa600;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.Bienvenidos{
+    text-align: center;
+    background-image: url(https://st.depositphotos.com/1000618/2346/i/950/depositphotos_23462984-stock-photo-colombia-flag-on-abstract-wing.jpg) ;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 200PX;
+    border-radius: 15PX;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 70px;
+    padding: 10px;
+   
+}
+
+#lugares{
+    display: flex;
+    margin-top: 20px;
+    padding: 15px;
+    margin-left:-10px ;
+   
+
+}
+
+.destacados{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+.destacados:hover{
+    transform:scale(1.01);}
+
+
+.arvi{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+.arvi:hover{
+    transform:scale(1.01);}
+
+.botero{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+    
+}
+.botero:hover{
+    transform:scale(1.01);}
+
+
+.div2{
+    text-align: center;
+    color: #ffffff;
+     font-size: 35px;}
+
+
+
+
+#gastronomia{
+    display: flex;
+    margin-top: 20px;
+    padding: 15px;
+    margin-left:-10px ;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+
+#contacto{
+    background-image: url(https://st.depositphotos.com/1000618/2346/i/950/depositphotos_23462984-stock-photo-colombia-flag-on-abstract-wing.jpg);
+    background-color: #ffffff;
+    border-radius: 25PX;
+    text-align: justify;
+    width: 93%;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+}
+
+#contacto:hover{
+    transform: scale(1.02);
+}
+.contenido2{
+    font-size: 25px;
+    text-align: right;
+    margin-left: 150px;
+    width: 40%;
+}
+
+li{
+    margin-bottom: 30px;
+}
+#nombre{
+    width: 50%;
+    height: 30px;
+
+}
+
+#email{
+    width: 50%;
+    height: 30px;
+
+}
+
+#mensaje{
+    width: 50%;
+    height: 50px;
+
+}
+#enviar{
+    width: 100px;
+    height: 30px;
+   background-color: aquamarine;
+}
+#enviar:hover{
+    background-color: #ffa600;
+}
+
+#restablecer{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(173, 182, 179);
+}
+#restablecer:hover{
+    background-color: #ffa600;}
+
+
+.clima{
+    background-color: #ebebe7;
+    border-radius: 10px;
+    width: 50%;
+    height: 10px;
+    padding: 10px;
+ 
+    
+}
+.clima:hover{
+    background-color: aquamarine;
+}
+
+.moneda{
+    background-color: #ebebe7;
+    border-radius: 10px;
+    width: 50%;
+    height: 10px;
+    padding: 10px;
+}
+.moneda:hover{
+    background-color: aquamarine;
+}
+
+.metro{
+    background-color: #ebebe7;
+    border-radius: 10px;
+    width: 50%;
+    height: 10px;
+    padding: 10px;
+}
+.metro:hover{
+    background-color: aquamarine;
+}
+
+.Idioma{
+    background-color: #ebebe7;
+    border-radius: 10px;
+    width: 50%;
+    height: 10px;
+    padding: 10px;
+}
+.Idioma:hover{
+    background-color: aquamarine;
+}
+
+.hora{
+    background-color: #ebebe7;
+    border-radius: 10px;
+    width: 50%;
+    height: 10px;
+    padding: 10px;
+}
+.hora:hover{
+    background-color: aquamarine;
+}
+
+.voltaje{
+    background-color: #ebebe7;
+    border-radius: 10px;
+    width: 50%;
+    height: 10px;
+    padding: 10px;
+}
+.voltaje:hover{
+    background-color: aquamarine;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+.redes{
+    word-spacing: 100px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.Twitter{
+    color: #ffffff;
+}
+.Twitter:hover{
+    color: #d0ff00;
+}
+.Facebook{
+    color: #ffffff;
+}
+
+.Facebook:hover{
+    color: #d0ff00;
+}
+.Instagram{
+    color: #ffffff;
+}
+.Instagram:hover{
+    color: #d0ff00;
+}
